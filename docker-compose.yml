@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  pdf:
+    build:
+        context: .
+    environment:
+        - DISPLAY=${DISPLAY}
+    volumes:
+      - .:/home/pdf/
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    tty: true
+    # Replace 1000 with your user / group id
+    user: 1000:1000

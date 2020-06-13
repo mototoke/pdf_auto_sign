@@ -8,9 +8,13 @@ from src.utils.img_type_convert import pil2cv
 
 class PdfToImage:
     def __init__(self):
-        # poppler/binを環境変数PATHに追加する
-        poppler_dir = Path(__file__).parent.absolute() / "poppler-0.68.0/bin"
-        os.environ["PATH"] += os.pathsep + str(poppler_dir)
+        import platform
+        pf = platform.system()
+        if pf == 'Windows':
+            print('on Windows')
+            # poppler/binを環境変数PATHに追加する
+            poppler_dir = Path(__file__).parent.absolute() / "poppler-0.68.0/bin"
+            os.environ["PATH"] += os.pathsep + str(poppler_dir)
 
     @staticmethod
     def convert_to_images(pdf_file: str):
