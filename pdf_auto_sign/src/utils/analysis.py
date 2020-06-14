@@ -89,5 +89,5 @@ def mm_to_pts(mm) -> float:
 
 
 if __name__ == '__main__':
-    test = 'C:/Users/makoto/Desktop/sample2.pdf'
+    test = 'C:/sample2.pdf'
     get_pdf_4coordinate(test)
