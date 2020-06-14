@@ -10,9 +10,10 @@ host:docker-compose up -d --build
 host:docker exec -it pdf_auto_sign_pdf_1 bash  
 // move dir pdf_auto_sign  
 pdf@f57d38aee057:~$ ls  
-Dockerfile  README.md  docker-compose.yml  pdf_auto_sign  
+// Dockerfile  README.md  docker-compose.yml  pdf_auto_sign  
 pdf@f57d38aee057:~$ cd pdf_auto_sign/  
 // Execute this app  
 pdf@f57d38aee057:~$ python main.py  
 
+Image  
 ![App Image](images/app.png)
