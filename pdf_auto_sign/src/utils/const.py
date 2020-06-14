@@ -7,4 +7,4 @@ INSERT_TEXT = 'InsertText'
 CONFIRM_CHECK = 'ConfirmCheck'
 EXECUTE = 'Execute'
 
-DEFAULT_INSERT_VALUE = '指定なし'
+DEFAULT_INSERT_VALUE = 'No Select'

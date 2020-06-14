@@ -30,3 +30,10 @@ cd pdf_auto_sign/
 ls
 python main.py 
 exit
+ls
+cd pdf_auto_sign/
+ls
+python main.py 
+python main.py 
+python main.py 
+exit

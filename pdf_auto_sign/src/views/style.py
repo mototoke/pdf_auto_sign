@@ -21,7 +21,7 @@ input_select_text_style = {
 input_file_browse_style = {
     'key': SELECT_FILE,
     'size': (10, 1),
-    'file_types': (('PDFファイル', '*.pdf'),)
+    'file_types': (('PdfFile', '*.pdf'),)
 }
 
 input_text_style = {
