@@ -37,3 +37,12 @@ python main.py
 python main.py 
 python main.py 
 exit
+ls
+cd pdf_auto_sign/
+ls
+python main.py
+python main.py
+exit
+cd pdf_auto_sign/
+python main.py 
+exit
